@@ -13,4 +13,7 @@ libraryDependencies ++= Seq(
   ws
 )
 
+libraryDependencies ++= Seq("com.newrelic.agent.java" % "newrelic-agent" % "5.3.0")
+libraryDependencies ++= Seq("com.newrelic.agent.java" % "newrelic-api" % "5.3.0")
+
 libraryDependencies <+= scalaVersion("org.scala-lang" % "scala-compiler" % _ )
